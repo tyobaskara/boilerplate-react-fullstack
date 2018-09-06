@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-fullstack-client",
+  "name": "client",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
