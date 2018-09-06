@@ -19,7 +19,7 @@ class Home extends React.Component {
         return (
             <View>
                 <Helmet>
-                    <title>Home</title>
+                    <title>Boilerplate React Fullstack</title>
                 </Helmet>
                 
                 <Container>
