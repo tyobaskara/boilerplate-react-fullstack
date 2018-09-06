@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "-- semantic-ui\r -- semantic-ui-react\r -- webpack 4\r -- react js\r -- redux\r -- mongoose\r -- express",
   "main": "server.js",
+  "engines": {
+    "node": "10.8.0"
+  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",

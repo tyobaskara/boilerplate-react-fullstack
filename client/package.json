@@ -2,6 +2,9 @@
   "name": "boilerplate-react-fullstack",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "10.8.0"
+  },
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
