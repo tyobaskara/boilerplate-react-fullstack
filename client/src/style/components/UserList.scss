@@ -1,0 +1,22 @@
+.user-list {
+  margin-bottom: 25px;
+  > ul {
+    list-style-type: none;
+  }
+}
+.user-list-detail {
+  background: white;
+  padding: 10px;
+  .item {
+    font-size: 1.6rem;
+  }
+  table {
+    width: 100%;
+    th,td {
+      padding: 10px 0;
+    }
+    th {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}

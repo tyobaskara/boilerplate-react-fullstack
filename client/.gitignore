@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+/package-lock.json
+/bower_components
+/semantic/src
+/semantic/tasks
+/semantic/gulpfile.js
+
+# production
+/dist

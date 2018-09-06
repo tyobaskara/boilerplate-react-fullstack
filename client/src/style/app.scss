@@ -1,0 +1,27 @@
+// @import "~bootstrap/dist/css/bootstrap";
+@import '../../semantic/dist/semantic.min.css';
+
+html, body {
+  font-size: 62.5%; //10px
+}
+body {
+  background: #f5f5f5;
+  line-height: 1;
+}
+body div {
+  font-size: 1.8rem;
+}
+.hide {
+  display: none !important;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+input,textarea {
+  width: 100%;
+  padding: 5px;
+}
+textarea {
+  min-height: 100px;
+}
