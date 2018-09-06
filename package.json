@@ -1,7 +1,7 @@
 {
-  "name": "hompimpa",
+  "name": "boilerplate-react-fullstack",
   "version": "1.0.0",
-  "description": "",
+  "description": "-- semantic-ui\r -- semantic-ui-react\r -- webpack 4\r -- react js\r -- redux\r -- mongoose\r -- express",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -27,5 +27,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyobaskara/boilerplate-react-fullstack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tyobaskara/boilerplate-react-fullstack/issues"
+  },
+  "homepage": "https://github.com/tyobaskara/boilerplate-react-fullstack#readme"
 }
