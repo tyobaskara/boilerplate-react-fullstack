@@ -7,10 +7,8 @@
 -- mongoose
 -- express
 
-# Run Step
--- npm install
--- npm run client-install
--- npm run dev
+# First Step
+-- npm install && npm run client-install
 
-notes to deploy:
-devdependencies and dependencies from client/package.json, should copied to server package.json
+# Run Step
+-- npm run dev
