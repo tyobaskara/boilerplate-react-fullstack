@@ -2,18 +2,12 @@
   "name": "client",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
-  "engines": {
-    "node": "10.8.0"
-  },
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "start": "node server.js"
   },
   "proxy": "http://localhost:5000",
-  "author": "tyo baskara",
-  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -53,5 +47,6 @@
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0"
   },
-  "description": ""
+  "main": "server.js",
+  "license": "ISC"
 }
