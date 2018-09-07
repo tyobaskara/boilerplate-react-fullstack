@@ -24,7 +24,7 @@ class Home extends React.Component {
                 
                 <Container>
                     <h1>Hello React</h1>
-                    <img src='./images/flags.png' />
+                    <img src='./static/images/no_pic.png' alt="no pic"/>
                 </Container>
             </View>
         );
