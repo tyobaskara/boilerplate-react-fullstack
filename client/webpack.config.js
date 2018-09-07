@@ -54,7 +54,7 @@ module.exports = {
           }]
         },
         { 
-          test: /\.(eot|ttf|woff|woff2svg|jpe?g|png|gif|ico)$/, 
+          test: /\.(eot|ttf|woff|woff2|svg|jpe?g|png|gif|ico)$/, 
           use: 'file-loader?name=./static/media/[name].[ext]' 
         }
       ]
