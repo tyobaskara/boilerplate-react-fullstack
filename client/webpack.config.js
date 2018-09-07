@@ -54,18 +54,9 @@ module.exports = {
           }]
         },
         { 
-          test: /\.(svg|jpe?g|png|gif|ico)$/, 
-          use: 'file-loader?name=./static/images/[name].[ext]' 
-        },
-        // "file" loader makes sure assets end up in the `build` folder.
-        // When you `import` an asset, you get its filename.
-        {
-          test: [/\.eot$/, /\.ttf$/, /\.woff$/, /\.woff2$/],
-          loader: require.resolve('file-loader'),
-          options: {
-            name: 'static/media/[name].[hash:8].[ext]',
-          },
-        },
+          test: /\.(eot|ttf|woff|woff2svg|jpe?g|png|gif|ico)$/, 
+          use: 'file-loader?name=./static/media/[name].[ext]' 
+        }
       ]
     },  
     optimization: {
