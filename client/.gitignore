@@ -7,4 +7,5 @@
 /semantic/gulpfile.js
 
 # production
-/dist
+/dist/*
+!/dist/images
