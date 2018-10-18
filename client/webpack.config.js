@@ -14,11 +14,13 @@ const htmlPlugin = new HtmlWebPackPlugin({
 module.exports = {
     entry: "./src/index.js",
     output: {
-      path: path.resolve('dist'),
-      filename: 'bundled.js'
+      path: path.resolve(__dirname, 'dist'),
+      filename: 'bundled.js',
+      publicPath: '/'
     },
     devtool: "source-map",
     devServer: {
+      historyApiFallback: true,
       proxy: {
         '/api/*': {
             target: 'http://localhost:5000',
